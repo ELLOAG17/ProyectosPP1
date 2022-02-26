@@ -43,25 +43,25 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(238, 72);
+            this.label1.Location = new System.Drawing.Point(35, 47);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 25);
+            this.label1.Size = new System.Drawing.Size(105, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Valor 1";
+            this.label1.Text = "Numero 1";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(243, 173);
+            this.label2.Location = new System.Drawing.Point(35, 114);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 25);
+            this.label2.Size = new System.Drawing.Size(105, 25);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Valor 2";
+            this.label2.Text = "Numero 2";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(248, 292);
+            this.label3.Location = new System.Drawing.Point(35, 180);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 25);
             this.label3.TabIndex = 2;
@@ -69,69 +69,81 @@
             // 
             // txtvalor1
             // 
-            this.txtvalor1.Location = new System.Drawing.Point(411, 72);
+            this.txtvalor1.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.txtvalor1.Location = new System.Drawing.Point(159, 47);
             this.txtvalor1.Name = "txtvalor1";
             this.txtvalor1.Size = new System.Drawing.Size(127, 31);
             this.txtvalor1.TabIndex = 3;
             // 
             // txtvalor2
             // 
-            this.txtvalor2.Location = new System.Drawing.Point(411, 166);
+            this.txtvalor2.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.txtvalor2.Location = new System.Drawing.Point(159, 114);
             this.txtvalor2.Name = "txtvalor2";
             this.txtvalor2.Size = new System.Drawing.Size(127, 31);
             this.txtvalor2.TabIndex = 4;
             // 
             // txtresultado
             // 
-            this.txtresultado.Location = new System.Drawing.Point(411, 285);
+            this.txtresultado.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.txtresultado.Location = new System.Drawing.Point(159, 189);
             this.txtresultado.Name = "txtresultado";
             this.txtresultado.Size = new System.Drawing.Size(127, 31);
             this.txtresultado.TabIndex = 5;
             // 
             // btnsumar
             // 
-            this.btnsumar.Location = new System.Drawing.Point(127, 402);
+            this.btnsumar.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.btnsumar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnsumar.Location = new System.Drawing.Point(110, 402);
             this.btnsumar.Name = "btnsumar";
-            this.btnsumar.Size = new System.Drawing.Size(95, 42);
+            this.btnsumar.Size = new System.Drawing.Size(112, 42);
             this.btnsumar.TabIndex = 6;
             this.btnsumar.Text = "sumar";
-            this.btnsumar.UseVisualStyleBackColor = true;
+            this.btnsumar.UseVisualStyleBackColor = false;
             this.btnsumar.Click += new System.EventHandler(this.btnsumar_Click);
             // 
             // btnmultiplicar
             // 
+            this.btnmultiplicar.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.btnmultiplicar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnmultiplicar.Location = new System.Drawing.Point(265, 402);
             this.btnmultiplicar.Name = "btnmultiplicar";
             this.btnmultiplicar.Size = new System.Drawing.Size(140, 42);
             this.btnmultiplicar.TabIndex = 7;
             this.btnmultiplicar.Text = "multiplicar";
-            this.btnmultiplicar.UseVisualStyleBackColor = true;
+            this.btnmultiplicar.UseVisualStyleBackColor = false;
             this.btnmultiplicar.Click += new System.EventHandler(this.btnmultiplicar_Click);
             // 
             // btnrestar
             // 
+            this.btnrestar.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.btnrestar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnrestar.Location = new System.Drawing.Point(423, 402);
             this.btnrestar.Name = "btnrestar";
             this.btnrestar.Size = new System.Drawing.Size(115, 42);
             this.btnrestar.TabIndex = 8;
             this.btnrestar.Text = "restar ";
-            this.btnrestar.UseVisualStyleBackColor = true;
+            this.btnrestar.UseVisualStyleBackColor = false;
             this.btnrestar.Click += new System.EventHandler(this.btnrestar_Click);
             // 
             // btndividir
             // 
+            this.btndividir.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.btndividir.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btndividir.Location = new System.Drawing.Point(578, 402);
             this.btndividir.Name = "btndividir";
             this.btndividir.Size = new System.Drawing.Size(132, 42);
             this.btndividir.TabIndex = 9;
             this.btndividir.Text = "dividir";
-            this.btndividir.UseVisualStyleBackColor = true;
+            this.btndividir.UseVisualStyleBackColor = false;
             this.btndividir.Click += new System.EventHandler(this.btndividir_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Gold;
             this.ClientSize = new System.Drawing.Size(928, 558);
             this.Controls.Add(this.btndividir);
             this.Controls.Add(this.btnrestar);
@@ -144,7 +156,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Mi Calculadora";
+            this.Text = "Calculadora simple";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

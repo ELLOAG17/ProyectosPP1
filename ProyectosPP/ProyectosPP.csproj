@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\OperacionesSc.cs" />
+    <Compile Include="Clases\Promedio.cs" />
     <Compile Include="menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,8 +55,20 @@
       <DependentUpon>menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="Prom3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prom3.Designer.cs">
+      <DependentUpon>Prom3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Clases\operacionesnew.cs" />
+    <Compile Include="Proyectos\Arreglo multidimensional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyectos\Arreglo multidimensional.Designer.cs">
+      <DependentUpon>Arreglo multidimensional.cs</DependentUpon>
+    </Compile>
     <Compile Include="Proyectos\arreglobidimensionales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +96,9 @@
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Prom3.resx">
+      <DependentUpon>Prom3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -92,6 +108,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Proyectos\Arreglo multidimensional.resx">
+      <DependentUpon>Arreglo multidimensional.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Proyectos\arreglobidimensionales.resx">
       <DependentUpon>arreglobidimensionales.cs</DependentUpon>
     </EmbeddedResource>

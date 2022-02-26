@@ -46,6 +46,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label1.Location = new System.Drawing.Point(250, 128);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(141, 25);
@@ -55,6 +56,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label2.Location = new System.Drawing.Point(250, 175);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(130, 25);
@@ -64,6 +66,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label3.Location = new System.Drawing.Point(250, 219);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(141, 25);
@@ -73,6 +76,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label4.Location = new System.Drawing.Point(250, 264);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(141, 25);
@@ -82,6 +86,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label5.Location = new System.Drawing.Point(250, 312);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(141, 25);
@@ -125,17 +130,18 @@
             // 
             // btnpromedio
             // 
-            this.btnpromedio.Location = new System.Drawing.Point(255, 409);
+            this.btnpromedio.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnpromedio.Location = new System.Drawing.Point(645, 128);
             this.btnpromedio.Name = "btnpromedio";
             this.btnpromedio.Size = new System.Drawing.Size(125, 39);
             this.btnpromedio.TabIndex = 11;
             this.btnpromedio.Text = "Promedio";
-            this.btnpromedio.UseVisualStyleBackColor = true;
+            this.btnpromedio.UseVisualStyleBackColor = false;
             this.btnpromedio.Click += new System.EventHandler(this.btnpromedio_Click);
             // 
             // txtpromedio
             // 
-            this.txtpromedio.Location = new System.Drawing.Point(486, 409);
+            this.txtpromedio.Location = new System.Drawing.Point(780, 132);
             this.txtpromedio.Name = "txtpromedio";
             this.txtpromedio.Size = new System.Drawing.Size(100, 31);
             this.txtpromedio.TabIndex = 12;
@@ -144,6 +150,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Gold;
             this.ClientSize = new System.Drawing.Size(892, 539);
             this.Controls.Add(this.txtpromedio);
             this.Controls.Add(this.btnpromedio);
@@ -158,7 +165,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "formcalificacion";
-            this.Text = "Promedio de 5 califiaciones ";
+            this.Text = "Promedio de  califiaciones ";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

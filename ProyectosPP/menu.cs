@@ -50,6 +50,21 @@ namespace ProyectosPP
             Proyectos.arreglobidimensionales l = new Proyectos.arreglobidimensionales();
             l.Show();
         }
+
+        private void arregloMultidimensopnalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Proyectos.Arreglo_multidimensional m = new Proyectos.Arreglo_multidimensional();
+            m.Show();
+
+        }
+
+        private void promedioDeTresCalificacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            ProyectosPP.Proyectos.Prom3 d = new ProyectosPP.Proyectos.Prom3();
+            d.Show();
+
+        }
     } 
 }
 
